@@ -1,0 +1,81 @@
+body
+{
+padding-top: 150px;
+padding-left: 50px;   
+margin: auto;
+color: white;
+font-variant: small-caps;
+font-weight: bold;
+font-style: roman times;
+font-size: 34px;
+background-image: url("/img/sa.jpg");
+background-repeat: no-repeat;
+background-size: 100%100%;
+
+}
+.tab{
+    padding: 5px ;
+    font-size: 34px;
+}
+
+.current,.sign{
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 10px;
+    font-size: 28px;
+    color:#09e2f1;
+    background-color: transparent;
+    border: 3px solid #07d2e0;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+a:hover,.current{
+    background-color: rgba(15, 241, 230, 0.253);
+    color:rgb(20, 199, 199);
+}
+.btn{
+    padding-left:75px;
+}
+.sbtn{
+    display: block;
+    width: 80%;
+    height: 65%;
+    background-color: #14af17;
+    color: white;
+    font: 22px Arial, sans-serif;
+    border: none;
+    border-radius: 7px;
+    box-shadow: 0 7px rgb(5, 136, 12);
+}
+.sbtn:hover {
+    background-color: #037e07
+    
+}
+
+.sbtn:active {
+    background-color: #0f8613;
+    box-shadow: 0 3px rgb(5, 136, 12);
+    transform: translateY(4px);
+  }
+  .fbtn{
+    display: block;
+    width: 80%;
+    height: 65%;
+    background-color: #ee2416;
+    color: white;
+    font: 22px Arial, sans-serif;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 7px rgb(168, 7, 7);
+}
+.fbtn:hover {
+    background-color: #cf0d0d
+    
+}
+
+.fbtn:active {
+    background-color: #b60909
+    box-shadow: 0 3px rgb(168, 7, 7);
+    transform: translateY(4px);
+  }
